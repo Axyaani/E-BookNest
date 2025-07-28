@@ -15,11 +15,11 @@ function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-white mb-4">Explore</h3>
           <ul className="space-y-2">
-            <li><a href="#home" className="hover:text-yellow-400 transition">Home</a></li>
-            <li><a href="#catalog" className="hover:text-yellow-400 transition">Catalog</a></li>
-            <li><a href="#bestsellers" className="hover:text-yellow-400 transition">Best Sellers</a></li>
-            <li><a href="#genres" className="hover:text-yellow-400 transition">Genres</a></li>
-            <li><a href="#contact" className="hover:text-yellow-400 transition">Contact</a></li>
+            <li><a href="/" className="hover:text-yellow-400 transition">Home</a></li>
+            <li><a href="/about" className="hover:text-yellow-400 transition">ABOUT</a></li>
+            <li><a href="/shop" className="hover:text-yellow-400 transition">BOOKS</a></li>
+            <li><a href="/Contact" className="hover:text-yellow-400 transition">CONTACT</a></li>
+          
           </ul>
         </div>
 
@@ -30,11 +30,8 @@ function Footer() {
             Stay updated with the latest releases and deals.
           </p>
           <form className="flex flex-col sm:flex-row items-center gap-3">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full px-4 py-2 rounded bg-blue-800 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
-            />
+            <input type="email" placeholder="Enter your email"
+              className="w-full px-4 py-2 rounded bg-white text-white focus:outline-none focus:ring-2 focus:ring-green-400"/>
             <button
               type="submit"
               className="bg-yellow-400 text-blue-900 px-5 py-2 rounded font-semibold hover:bg-yellow-300 transition"
